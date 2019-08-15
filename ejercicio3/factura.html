@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+  </head>
+  <body>
+    <form>
+      <h3>FACTURA</h3>
+        <label for="">Codigo Producto</label>
+        <input type="text" name="" value=""><br><br>
+        <label for="">Numero</label>
+        <input type="text"><br><br>
+        <label for="">Precio producto</label>
+        <input type="text" id="a"><br><br>
+        <label for="">Utilidad</label>
+        <input type="text" id="b"><br><br>
+        <label for="">Precio Mercado</label>
+        <input type="text" id="c"><br><br>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="reset" value="Limpiar"><br><br>
+    </form>
+    <form>
+        <label for="">Impuestos</label>
+        <input type="number" id="x" size="2" min="1" max="99"> % <br><br>
+        <label for="">Sitio de Venta</label>
+        <input type="number" id="y" size="1" min="1" max="5"><br><br>
+        <label for="">Total</label>
+        <input type="numer" id="z"name="" value=""><br><br>
+        <input type="button" value="Calcular" onclick="calcular2()">
+        <input type="reset" value="Limpiar"><br><br>
+    </form>
+    <footer></footer>
+    <!-- JS -->
+    <script type="text/javascript"  src="js/calculo.js"></script>
+  </body>
+
+</html>
